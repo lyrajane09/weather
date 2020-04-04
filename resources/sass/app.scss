@@ -1,0 +1,54 @@
+//styles
+body{
+    background-image: url(/../../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    
+    #search{
+        color: #fff;
+        [type="text"]{
+            padding: 10px;
+            max-width: 600px;
+            border: 1px solid #fff;
+            border-radius: 57px;
+            width: 100%;
+            background: transparent;
+            color:#fff;
+        }
+        [type="text"]:focus {
+            outline:none;
+        }
+        svg{
+            position: absolute;
+            right: 30px;
+            top: 8px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+
+    #weather-container{
+        color:#fff;
+        margin-top: 100px;
+        span{
+            font-size: 25px;
+        }
+        h5{
+            font-size: 30px;
+            font-weight: 200;
+        }
+        h1{
+            font-size: 8em;
+            line-height: 0.7;
+            font-weight: 200;
+        }
+    }
+
+    section{
+        center{
+            color : #fff;
+        }
+    }
+}
